@@ -3,14 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-html, body, #root {
+html,
+body {
   height: 100%;
 }
 
-*, button, input {
+*,
+button,
+input {
   border: 0;
   outline: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 :root {
   --background: #eeeeee;
@@ -18,10 +21,10 @@ html, body, #root {
   --blue: #5755d9;
   --gray: #e5e5e5;
 
-  --black-10: rgba(0, 0, 0, 0.10);
+  --black-10: rgba(0, 0, 0, 0.1);
   --black-15: rgba(0, 0, 0, 0.15);
   --black-25: rgba(0, 0, 0, 0.25);
-  --black-30: rgba(0, 0, 0, 0.30);
+  --black-30: rgba(0, 0, 0, 0.3);
   --black-35: rgba(0, 0, 0, 0.35);
   --black-50: rgba(0, 0, 0, 0.5);
   --black-65: rgba(0, 0, 0, 0.65);
@@ -39,4 +42,27 @@ a {
 [disabled] {
   cursor: not-allowed;
   opacity: 0.6;
+}
+
+.react-modal-overlayClassName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--black-35);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.react-modal-content {
+  background: var(--white);
+  border-radius: 2px;
+  padding: 0.625rem;
+  max-width: 18.125rem;
+  max-height: 7rem;
+  position: absolute;
+  top: 51%;
+  left: 53%;
+  transform: translate(-50%, -50%);
 }
