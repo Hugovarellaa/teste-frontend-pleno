@@ -1,0 +1,7 @@
+.buttonAdd {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 14px 0;
+}

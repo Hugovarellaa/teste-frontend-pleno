@@ -1,0 +1,13 @@
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message span {
+  max-width: 150px;
+  font-weight: 400;
+  font-size: 0.75rem;
+  text-align: center;
+  color: var(--black-30);
+}

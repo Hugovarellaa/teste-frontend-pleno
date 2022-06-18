@@ -6,7 +6,7 @@
   flex-direction: column;
 }
 
-/* UserArea */
+
 .content {
   height: 46px;
   width: 100%;
@@ -14,78 +14,4 @@
   align-items: center;
   flex-direction: row;
   padding: 0.6875rem 0.5rem;
-}
-
-.avatar {
-  width: 20px;
-  height: 20px;
-  margin-right: 8px;
-}
-
-.userInfo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-  white-space: nowrap;
-  overflow: hidden;
-  margin-right: auto;
-}
-
-.userInfo span {
-  font-size: 0.875rem;
-  font-weight: 500;
-  line-height: 16.41px;
-  color: var(--black-65);
-}
-
-.userInfo p {
-  font-size: 0.75rem;
-  font-weight: 400;
-  line-height: 16.41px;
-  color: var(--black-50);
-}
-
-.buttonAdd {
-  width: 18px;
-  height: 18px;
-  display: flex;
-  justify-content: flex-end;
-  margin: 14px 0;
-}
-
-
-/* divider */
-.divider{
-  width: 100%;
-  height: 1px;
-  background-color: var(--black-10);
-}
-
-/* text */
-.text {
-  font-size: 0.625rem;
-  font-weight: 500;
-  line-height: 11.72px;
-  color: var(--black-65);
-  margin-top: 0.75rem;
-  margin-bottom: 0.875rem;
-  margin-left: 8px;
-  color: var(--black-30);
-}
-
-
-/* message */
-.message {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.message span {
-  max-width: 150px;
-  font-weight: 400;
-  font-size: 0.75rem;
-  text-align: center;
-  color: var(--black-30)
 }

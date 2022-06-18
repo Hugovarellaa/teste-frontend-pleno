@@ -1,0 +1,23 @@
+.search {
+  margin: 0 auto;
+  border: 1px solid var(--black-15);
+  border-radius: 50px;
+  width: 15.625rem;
+  height: 1.5rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.search > img {
+   width: 16px;
+   height: 16px;
+   margin: 4px;
+}
+
+.search::placeholder{
+  color: var(--black-30);
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 14.06px;
+}

@@ -1,0 +1,10 @@
+.text {
+  font-size: 0.625rem;
+  font-weight: 500;
+  line-height: 11.72px;
+  color: var(--black-65);
+  margin-top: 0.75rem;
+  margin-bottom: 0.875rem;
+  margin-left: 8px;
+  color: var(--black-30);
+}

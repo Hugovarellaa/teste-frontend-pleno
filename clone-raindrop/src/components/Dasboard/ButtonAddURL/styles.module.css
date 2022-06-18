@@ -1,0 +1,15 @@
+.addButton {
+  padding: 0.25rem 0.50rem;
+  background: var(--black-25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  color: var(--white)
+}
+
+.addButton > img {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
